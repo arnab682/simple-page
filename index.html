@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Class 16</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			outline: 0;
+		}
+		body {
+			width: 80%;
+			margin: 10px auto;
+			background-color: ;
+			font-size: 18px;
+			text-align: justify;
+		}
+		.languages h3 {
+			text-align: center;
+			text-decoration: underline;
+		}
+		#tabContainers {
+			width: 40%;
+			margin: 2px auto;
+		}
+		#tabs {
+			height: 40px;
+			width: 100%;
+			background-color: tomato;	
+			border: 2px solid black;
+			text-align: center;
+		}
+		#tabs ul li {
+		  display: inline-block;
+		  padding: 9px 10px;
+		  background-color: orange;
+		}
+		
+		#tabs ul li a {
+			  text-decoration: none;
+		}
+		h1 {
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+	<div class="languages">
+		<header>
+			<h3>Core Languages</h3>
+		</header>
+		<div id="tabContainers">
+			<nav id="tabs">
+				<ul>
+					<li id="tab1"><a href="#html-des">HTML</a></li>
+					<li id="tab2"><a href="#css-des">CSS</a></li>
+					<li id="tab3"><a href="#javascript-des">Javascript</a></li>
+				</ul>
+			</nav>
+			<div class="containers">
+				<section id="html-des">
+					<article>
+						<h1>HTML</h1>
+						<p><strong>Hypertext Markup Language.</strong> Controls the structure and semantics of web pages. Tags are used to mark up elements and denote content type. Although HTML does contain some presentational elements, it consists primarily of logical tags that identify content or provide information on content hierarchy.</p>
+		        		<p>HTML allows allows for images and media such as video to be embedded as content on pages. This is usually referred to as replaced content, as the HTML tag will refer the user agent to fetch an external resource.</p>
+					</article>
+				</section>
+				<section id="css-des">
+					<article>
+						<h1>CSS</h1>
+						<p><strong>Cascading Style Sheets.</strong> Controls the visual presentation of page elements. It is responsible for page layout, color, typography, and element dimensions. Recent additions to CSS have included transforms and animations, which have greatly expanded the capabilities of CSS and the effects that can be controlled through it.</p>
+		        		<p>CSS is a presentational language, meaning that it's syntax references page elements, and then assigns values to the visual properties of those elements. Although the basic syntax is easy to learn there are a considerable amount of properties and values to learn, as well as which element types they can apply to.</p>
+		        		<p>The "cascading" nature that CSS derives its name from indicates how styles are applied by user agents. Since styles can be applied from multiple sources, there are rules that control when styles are applied and how to resolve conflict. Understanding the cascade is a critical part of controlling site-wide styles efficiently.</p>
+					</article>
+				</section>
+				<section id="javascript-des">
+					<article>
+						<h1>Javascript</h1>
+						<p><strong>JavaScript.</strong> Controls the behavior of page elements and is used to create interactive widgets, facilitate user interaction, control the browser, or a host of other functions. Javascript is a programming language, and its syntax is arguably the most difficult to learn of the three core languages. Page elements are accessed through the <strong>DOM</strong> (Document Object Model) and then manipulated through <strong>events</strong> and <strong>functions</strong>.</p>
+		        		<p>Because the code is executed within the browser and not on a web server, Javascript is often referred to as a "client-side" scripting language. This functionality makes Javascript faster than many other scripting choices, and capable of providing instant feedback or results to the user.</p>
+		 				<p>Over the years many Javascript frameworks and libraries have been developed to extend the capabilities of Javascript and make it faster to write. The success of libraries like jQuery have led to an explosion of Javascript development and have solidified it as the <i>de facto</i> scripting language for the web.</p>
+					</article>
+				</section>
+			</div>
+		</div>
+		<aside></aside>
+		<footer></footer>
+	</div>
+
+</body>
+</html>
